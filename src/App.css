@@ -1,0 +1,37 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemonCollections {
+  display: grid;
+  margin: 1em;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.card {
+  background-color: white;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+  border-radius: 1em;
+  position: relative;
+}
+.card > img {
+  width: 100%;
+  flex: 1;
+}
+
+.card > h4 {
+  text-transform: capitalize;
+  font-size: larger;
+}
+
+button {
+  padding: 1em;
+}
